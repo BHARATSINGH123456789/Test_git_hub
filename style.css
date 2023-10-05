@@ -1,0 +1,87 @@
+.formValidation{
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+    border: 3px solid brown;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.name input {
+    width: 80%;
+    height: 1.5vh; 
+    margin-left: 5%;
+    padding: 2%;
+    
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.email input {
+    width: 80%;
+    height: 1.5vh;
+    margin-left: 5%;
+    padding: 2%;
+   
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.phone input {
+    width: 80%;
+    height: 1.5vh;
+    padding: 2%;
+    margin-left: 5%;
+    
+}
+
+
+.btn button{
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: large;
+    font-weight: bold;
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(93, 93, 230);
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+    } 
+}
